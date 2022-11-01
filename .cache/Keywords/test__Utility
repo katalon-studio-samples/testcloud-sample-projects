@@ -1,0 +1,77 @@
+{
+  "keywordFileContentHash": "89523598197ADAA923283BD1FF12266F",
+  "keywordClasses": [
+    {
+      "name": "test.Utility",
+      "keywordMethods": [
+        {
+          "name": "executeCommand",
+          "parameters": [
+            {
+              "name": "commands",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "",
+                "unresolvedClassName": "",
+                "isArray": true,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "componentType": {
+                  "fullClassName": "java.lang.String",
+                  "unresolvedClassName": "String",
+                  "isArray": false,
+                  "isGnericsPlaceHolder": false,
+                  "hasImmutableClassName": false,
+                  "genericsTypes": [],
+                  "errorOnParsing": false
+                },
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "readFile",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "listFiles",
+          "parameters": [
+            {
+              "name": "path",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E2E43D2195D388970B4E761D8729618B",
+  "keywordClasses": [
+    {
+      "name": "test.StreamGobbler",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,77 @@
+{
+  "keywordFileContentHash": "179D48C15F353674B7384EF75114F906",
+  "keywordClasses": [
+    {
+      "name": "test.ExecuteCommand",
+      "keywordMethods": [
+        {
+          "name": "executeCommand",
+          "parameters": [
+            {
+              "name": "commands2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "",
+                "unresolvedClassName": "",
+                "isArray": true,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "componentType": {
+                  "fullClassName": "java.lang.String",
+                  "unresolvedClassName": "String",
+                  "isArray": false,
+                  "isGnericsPlaceHolder": false,
+                  "hasImmutableClassName": false,
+                  "genericsTypes": [],
+                  "errorOnParsing": false
+                },
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "readFile",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "listFiles",
+          "parameters": [
+            {
+              "name": "path",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
