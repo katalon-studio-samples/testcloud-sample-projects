@@ -8,7 +8,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://the-internet.herokuapp.com/download')
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/a_test.txt'))
+WebUI.click(findTestObject('Object Repository/Page_The Internet/FileUpload.txt'))
 
 WebUI.delay(10)
 
