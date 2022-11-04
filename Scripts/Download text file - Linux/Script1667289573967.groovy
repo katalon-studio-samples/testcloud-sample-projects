@@ -6,11 +6,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://the-internet.herokuapp.com/download')
+WebUI.navigateToUrl('https://getsamplefiles.com/sample-document-files/txt')
 
-WebUI.click(findTestObject('Object Repository/Page_The Internet/FileUpload.txt'))
+WebUI.click(findTestObject('Object Repository/Page_File Samples/a_download file'))
 
-WebUI.delay(10)
+WebUI.delay(15)
 
 String download = System.getProperty("user.home") + File.separator + 'Downloads'
 
@@ -18,10 +18,10 @@ println 'LIST FILE IN Downloads FOLDER - COMMAND'
 CustomKeywords.'test.Utility.executeCommand'((String[]) [ "/bin/sh", "-c", "cd ${download}; ls"])
 
 println('READ DOWNLOADED FILE')
-CustomKeywords.'test.Utility.readFile'("${download}${File.separator}test.txt")
+CustomKeywords.'test.Utility.readFile'("${download}${File.separator}sample.txt")
 
 println('MOVE FILE TO TEMP FOLDER');
-CustomKeywords.'test.Utility.executeCommand'((String[]) [ "/bin/sh", "-c", "mv ${download}${File.separator}test.txt /tmp; cd /tmp; ls"])
+CustomKeywords.'test.Utility.executeCommand'((String[]) [ "/bin/sh", "-c", "mv ${download}${File.separator}sample.txt /tmp; cd /tmp; ls"])
 
 println('READ FILE AFTER MOVE FILE')
-CustomKeywords.'test.Utility.readFile'("/tmp${File.separator}test.txt")
+CustomKeywords.'test.Utility.readFile'("/tmp${File.separator}sample.txt")

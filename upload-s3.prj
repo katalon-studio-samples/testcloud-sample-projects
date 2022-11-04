@@ -6,6 +6,7 @@
    <UUID>e6abb3e2-c7f9-4133-a64f-a034cd994750</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/phu.vuong/Documents/test-s3-2/upload-s3.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
